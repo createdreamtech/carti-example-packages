@@ -1,0 +1,24 @@
+{
+    "$schema": "../../bundle-config-schema.json",
+    "bundles": [
+        {
+            "bundleType": "rom",
+            "deps": [],
+            "fileName": "example-rom",
+            "id": "ba3rawf3Bfaw3gsga",
+            "name": "@rom/example",
+            "uri": "https://my-cool-storage.com",
+            "version": "1.0.0"
+        },
+        {
+            "bundleType": "ram",
+            "deps": [],
+            "fileName": "example-rom",
+            "id": "ba3rawf3Bfaw3gsgd",
+            "name": "@rom/example",
+            "uri": "https://my-cool-storage.com",
+            "version": "1.0.0"
+        }
+    ]
+
+}
