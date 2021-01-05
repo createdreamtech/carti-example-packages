@@ -1,0 +1,30 @@
+{
+  "assets": [
+    {
+      "cid": "baenrwic6ybfsdmdtm52fhgbeip6ndoi3e62bonaadmotji4x6vvdpedt3m",
+      "name": "remote-test-data",
+      "fileName": "dapp-test-data.ext2"
+    }
+  ],
+  "machineConfig": {
+    "flash_drive": [
+      {
+        "cid": "baenrwic6ybfsdmdtm52fhgbeip6ndoi3e62bonaadmotji4x6vvdpedt3m",
+        "start": "0x80000000000",
+        "length": "0x100000",
+        "shared": false
+      }
+    ],
+    "ram": {
+      "cid": "default-ram",
+      "length": "0x4000000",
+      "resolvedPath": "/opt/cartesi/share/images/linux.bin"
+    },
+    "rom": {
+      "cid": "default-rom",
+      "bootargs": "console=hvc0 rootfstype=ext2 root=/dev/mtdblock0 rw quiet mtdparts=flash.0:-(root)",
+      "resolvedPath": "/opt/cartesi/share/images/rom.bin"
+    }
+  },
+  "version": "0.0.0-development"
+}
